@@ -163,13 +163,13 @@ export default {
       id: 5,
       img: designIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Learned design-oriented programming to improve the experience of program writing for software developers, boost accessibility, and reduce eye-strain.",
     },
     {
       id: 6,
       img: codeIcon,
       para:
-        "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,",
+        "Learned in-demand skills through a market-driven curriculum: HTML5, CSS3, JavaScript, jQuery, Express.js, React.js, Node.js, progressive web apps, agile methodology, computer science, database theory, MongoDB, MySQL, Git, and more.",
     },
   ],
 
