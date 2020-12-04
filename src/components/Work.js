@@ -10,7 +10,8 @@ const Work = () => {
       <div className="container">
         <div className="work-wrapper">
           <Fade bottom>
-            <h1>Work (Click box to view projects)</h1>
+            <h1>Work</h1>
+            <h2>(Click box to view projects)</h2>
           </Fade>
 
           <div className="grid">
