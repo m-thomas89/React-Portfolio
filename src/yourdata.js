@@ -26,7 +26,7 @@ export default {
   ],
   //   Header Paragraph
   headerParagraph:
-    "I have built this portfolio so that you may get a glimpse of some of the things I have learned.",
+    "I built this portfolio so that you may get a glimpse of some of the things I have learned.",
 
   //Contact Email
   contactEmail: "m-thomas89@hotmail.com",
@@ -42,7 +42,7 @@ export default {
         "If you are need help generating a password, here you go!", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://media.gettyimages.com/videos/nigeria-flag-video-id675456232?s=640x640",
       //Project URL - Add Your Project Url Here
       url: "https://m-thomas89.github.io/hw3/",
     },
@@ -53,7 +53,7 @@ export default {
         "If you need to find out the weather for a city you are visiting or in, here you go!", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://openweathermap.org/img/wn/04n.png",
       //Project URL - Add Your Project Url Here
       url: "https://m-thomas89.github.io/WeatherApp/",
     },
@@ -64,7 +64,7 @@ export default {
         "An app that will help you pick a movie as well as pair your movie choice with an alcoholic beverage", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://idallas93.github.io/BootcampProjectOne/image.png",
       //Project URL - Add Your Project Url Here
       url: "https://idallas93.github.io/BootcampProjectOne/",
     },
@@ -75,7 +75,7 @@ export default {
         "Brown Bag allows restaurants to process orders without the need of a large waitstaff, along with cutting out the fees associated with current popular food apps. Instead of charging a large percentage of each transaction, Brown Bag will only charge a small, monthly fee while providing the same level of service.​", 
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-fried-rice-768x614.jpg",
       //Project URL - Add Your Project Url Here
       url: "https://foodappbcs.herokuapp.com/",
     },
@@ -86,7 +86,7 @@ export default {
         "If you are ever bored or want to test your coding knowledge.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "https://m-thomas89.github.io/Code-Quiz/img/js.png",
       //Project URL - Add Your Project Url Here
       url: "https://m-thomas89.github.io/Code-Quiz/",
     },
@@ -97,7 +97,7 @@ export default {
         "This app will help you budget.", // Add Your Service Type Here
       //Project Image - Add Your Project Image Here
       imageSrc:
-        "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        "https://lh3.googleusercontent.com/csBET4_f0kLTQcp2Y4Oko-TkWgAGYAUreKtR0aIcNogWFSHy-gk-4Q9sqhy_h879nQ=w700-rwa",
       //Project URL - Add Your Project Url Here
       url: "https://stark-everglades-13129.herokuapp.com/",
     },
