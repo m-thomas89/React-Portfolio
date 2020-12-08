@@ -11,17 +11,13 @@ import githubIcon from "./images/github.svg"
 
 
 export default {
-  //(Please Do Not Remove The comma(,) after every variable)
-  //Change The Website Template
+ 
 
   //   Header Details ---------------------
   name: "Michael Thomas",
   headerTagline: [
-    //Line 1 For Header
     "Building digital",
-    //Line 2 For Header
     "products, brands,",
-    //Line 3 For Header
     "and experience",
   ],
   //   Header Paragraph
@@ -31,7 +27,6 @@ export default {
   //Contact Email
   contactEmail: "m-thomas89@hotmail.com",
 
-  // End Header Details -----------------------
 
   // Work Section ------------------------
   projects: [
@@ -40,10 +35,8 @@ export default {
       title: "Password Generator",
       para:
         "If you are need help generating a password, here you go!", 
-      //Project Image - Add Your Project Image Here
       imageSrc:
         "https://media.gettyimages.com/videos/nigeria-flag-video-id675456232?s=640x640",
-      //Project URL - Add Your Project Url Here
       url: "https://m-thomas89.github.io/hw3/",
     },
     {
@@ -51,10 +44,8 @@ export default {
       title: "Weather Dashboard", 
       para:
         "If you need to find out the weather for a city you are visiting or in, here you go!", 
-      //Project Image - Add Your Project Image Here
       imageSrc:
         "https://openweathermap.org/img/wn/04n.png",
-      //Project URL - Add Your Project Url Here
       url: "https://m-thomas89.github.io/WeatherApp/",
     },
     {
@@ -62,10 +53,8 @@ export default {
       title: "BoozieNight", 
       para:
         "An app that will help you pick a movie as well as pair your movie choice with an alcoholic beverage", 
-      //Project Image - Add Your Project Image Here
       imageSrc:
         "https://idallas93.github.io/BootcampProjectOne/image.png",
-      //Project URL - Add Your Project Url Here
       url: "https://idallas93.github.io/BootcampProjectOne/",
     },
     {
@@ -73,48 +62,32 @@ export default {
       title: "Brown Bag", 
       para:
         "Brown Bag allows restaurants to process orders without the need of a large waitstaff, along with cutting out the fees associated with current popular food apps. Instead of charging a large percentage of each transaction, Brown Bag will only charge a small, monthly fee while providing the same level of service.​", 
-      //Project Image - Add Your Project Image Here
       imageSrc:
         "https://www.foodiesfeed.com/wp-content/uploads/2019/04/mae-mu-fried-rice-768x614.jpg",
-      //Project URL - Add Your Project Url Here
       url: "https://foodappbcs.herokuapp.com/",
     },
     {
       id: 5, 
-      title: "Code Quiz", //Project Title - Add Your Project Title Here
+      title: "Code Quiz", 
       para:
-        "If you are ever bored or want to test your coding knowledge.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "If you are ever bored or want to test your coding knowledge.", 
       imageSrc:
         "https://m-thomas89.github.io/Code-Quiz/img/js.png",
-      //Project URL - Add Your Project Url Here
       url: "https://m-thomas89.github.io/Code-Quiz/",
     },
     {
       id: 6, 
-      title: "Progressive Budget", //Project Title - Add Your Project Title Here
+      title: "Progressive Budget", 
       para:
-        "This app will help you budget.", // Add Your Service Type Here
-      //Project Image - Add Your Project Image Here
+        "This app will help you budget.", 
       imageSrc:
         "https://lh3.googleusercontent.com/csBET4_f0kLTQcp2Y4Oko-TkWgAGYAUreKtR0aIcNogWFSHy-gk-4Q9sqhy_h879nQ=w700-rwa",
-      //Project URL - Add Your Project Url Here
       url: "https://stark-everglades-13129.herokuapp.com/",
     },
 
-    /*
-    If You Want To Add More Project just Copy and Paste This At The End (Update the id Respectively)
-    ,{
-        id: 5,
-        title: 'Project Five',
-        para: 'Something Amazing',
-        imageSrc: "",
-        url: ''
-    }
-    */
+    
   ],
 
-  // End Work Section -----------------------
 
   // About Secton --------------
   aboutParaOne:
@@ -130,7 +103,6 @@ export default {
 
   // Skills Section ---------------
 
-  //   Import Icons from the top and link it here
 
   skills: [
     {
@@ -171,16 +143,13 @@ export default {
     },
   ],
 
-  // End Skills Section --------------------------
 
-  //   Promotion Section --------------------------
 
   
   //   Contact Section --------------
 
   contactSubHeading: "Let's create your next experience together",
   social: [
-    // Add Or Remove The Link Accordingly
     { img: githubIcon, url: "https://github.com/m-thomas89" },
     
   ],

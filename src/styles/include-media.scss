@@ -331,11 +331,7 @@ $im-no-media-expressions: ("screen", "portrait", "landscape") !default;
   $interval: map-get($unit-intervals, unit($value));
 
   @if not $interval {
-    // It is not possible to include a mixin inside a function, so we have to
-    // rely on the `im-log(..)` function rather than the `log(..)` mixin. Because
-    // functions cannot be called anywhere in Sass, we need to hack the call in
-    // a dummy variable, such as `$_`. If anybody ever raise a scoping issue with
-    // Sass 3.3, change this line in `@if im-log(..) {}` instead.
+    
     $_: im-log("Unknown unit `#{unit($value)}`.");
   }
 
@@ -348,16 +344,12 @@ $im-no-media-expressions: ("screen", "portrait", "landscape") !default;
   @return $value;
 }
 
-///
-/// Parse an expression to return a valid media-query expression
-///
+
 /// @param {String} $expression - Expression to parse
-///
+
 /// @return {String} - Valid media query
 ///
 @function parse-expression($expression) {
-  // If it is part of $media-expressions, it has no operator
-  // then there is no need to go any further, just return the value
   @if map-has-key($media-expressions, $expression) {
     @return map-get($media-expressions, $expression);
   }
@@ -371,7 +363,6 @@ $im-no-media-expressions: ("screen", "portrait", "landscape") !default;
 }
 
 ///
-/// Slice `$list` between `$start` and `$end` indexes
 ///
 /// @access private
 ///
@@ -491,35 +482,15 @@ $im-no-media-expressions: ("screen", "portrait", "landscape") !default;
   @return $value * map-get($units, $unit);
 }
 
-///
-/// This mixin aims at redefining the configuration just for the scope of
-/// the call. It is helpful when having a component needing an extended
-/// configuration such as custom breakpoints (referred to as tweakpoints)
-/// for instance.
+
 ///
 /// @author Hugo Giraudel
 ///
 /// @param {Map} $tweakpoints [()] - Map of tweakpoints to be merged with `$breakpoints`
 /// @param {Map} $tweak-media-expressions [()] - Map of tweaked media expressions to be merged with `$media-expression`
 ///
-/// @example scss - Extend the global breakpoints with a tweakpoint
-///  @include media-context(('custom': 678px)) {
-///    .foo {
-///      @include media('>phone', '<=custom') {
-///       // ...
-///      }
-///    }
-///  }
-///
-/// @example scss - Extend the global media expressions with a custom one
-///  @include media-context($tweak-media-expressions: ('all': 'all')) {
-///    .foo {
-///      @include media('all', '>phone') {
-///       // ...
-///      }
-///    }
-///  }
-///
+/// @example scss - 
+/// @example scss 
 /// @example scss - Extend both configuration maps
 ///  @include media-context(('custom': 678px), ('all': 'all')) {
 ///    .foo {
